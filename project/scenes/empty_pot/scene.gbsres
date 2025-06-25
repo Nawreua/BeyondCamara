@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "c0379c3d-2bab-4fdc-9929-7e396f7deabe",
+  "_index": 1,
+  "name": "Empty pot",
+  "backgroundId": "a35db480-11da-40e8-a043-2c76224d09fa",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 704,
+  "y": 144,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "5a675e58-b133-42a9-80b1-117ce54c3260"
+}

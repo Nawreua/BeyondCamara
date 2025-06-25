@@ -1,0 +1,100 @@
+{
+  "_resourceType": "scene",
+  "id": "ad868234-000f-4113-a27e-442af0d2ca75",
+  "_index": 3,
+  "name": "Title Screen",
+  "backgroundId": "4953fc4a-3322-495d-8d34-7b9de371afb7",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 272,
+  "y": 392,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_RNG_SEED",
+            "args": {},
+            "id": "958b277e-6eb2-4416-a85a-84616622b451"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "1",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "d73ccdb6-091c-4195-88e3-e414287360d0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "2",
+              "value": {
+                "type": "false"
+              }
+            },
+            "id": "aee03e77-7ce3-4756-9bdd-3fd2207a1a70"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "3",
+              "value": {
+                "type": "number",
+                "value": 5
+              }
+            },
+            "id": "a07c2c16-5bfa-42ad-acdb-71361bcba012"
+          },
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "start"
+              ]
+            },
+            "id": "7a73cbf4-d614-4165-a51f-29b7f4ba40d3"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "3485871b-0097-46a2-adff-55ac9f989be5",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "075467ce-6022-4ec4-aedb-b73179fd0880"
+          }
+        ]
+      },
+      "id": "5b7fc89a-0b9d-4041-80a2-4b0b1b93e329"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

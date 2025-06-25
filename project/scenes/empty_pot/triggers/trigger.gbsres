@@ -1,0 +1,140 @@
+{
+  "_resourceType": "trigger",
+  "id": "6abb5476-5e4f-4187-84e2-b1d8828e13d6",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 9,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 11,
+  "height": 9,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "3a2c5ce9-1d63-4234-b4e2-7997160108d8"
+      },
+      "id": "078c5024-0ab1-46fe-bd97-afb77d9dd9c6"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "2"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "T0",
+                    "trueText": "Plant herbs",
+                    "falseText": "Do nothing"
+                  },
+                  "id": "80a5bb0c-9c5a-4107-95a9-283ca93dfcc5"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "T0"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Something has been\nplanted..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "cc0944fd-e14d-4ccc-8f79-78a1064d5b4c"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "true"
+                          }
+                        },
+                        "id": "1d70c5a6-b7e1-4b66-adde-2801a64ceac6"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "48789a18-91b4-445d-a31f-e4576958adb6"
+                }
+              ],
+              "false": []
+            },
+            "id": "c8e1d1f1-a2f9-436b-a53f-b7297b153d88"
+          }
+        ]
+      },
+      "id": "3723b9dd-b3f1-4d90-820a-162d2dc3e75f"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "5a675e58-b133-42a9-80b1-117ce54c3260"
+      },
+      "id": "81aa8d29-1f5d-4756-8c50-ec26136fd3a0"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "82a4a358-c8ca-4888-91f0-4a12b8ac5530"
+    }
+  ],
+  "_index": 0
+}

@@ -1,0 +1,159 @@
+{
+  "_resourceType": "trigger",
+  "id": "a72cdad7-5345-4f04-b16a-6f1addbd4748",
+  "name": "",
+  "prefabId": "",
+  "x": 1,
+  "y": 2,
+  "symbol": "trigger_1",
+  "prefabScriptOverrides": {},
+  "width": 11,
+  "height": 9,
+  "script": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "3a2c5ce9-1d63-4234-b4e2-7997160108d8"
+      },
+      "id": "bac61a37-18e1-4c62-90ce-a2bc6107912a"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "2"
+              },
+              "__collapseElse": true,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "T0",
+                    "trueText": "Recolt herbs",
+                    "falseText": "Do nothing"
+                  },
+                  "id": "608df3b5-4d2d-4466-9434-112831795579"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "T0"
+                      },
+                      "valueB": {
+                        "type": "true"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Healed..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "577a830b-9315-4107-a578-8aa5e00a5097"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "2",
+                          "value": {
+                            "type": "false"
+                          }
+                        },
+                        "id": "bd0be467-bfe3-487b-93c9-7cace9844910"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "1",
+                          "value": {
+                            "type": "false"
+                          }
+                        },
+                        "id": "0e8f6360-1844-4694-8bda-bea90f72b582"
+                      },
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "3",
+                          "value": {
+                            "type": "number",
+                            "value": 7
+                          }
+                        },
+                        "id": "610a7cd6-ac73-4bc5-a6ae-5d3b9a20aab7"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "edec7d1f-715f-4209-9058-b8450f36fc60"
+                }
+              ],
+              "false": []
+            },
+            "id": "cb675144-8420-4762-93e3-2b184c7ce810"
+          }
+        ]
+      },
+      "id": "2094f458-911a-4884-9dd4-de0fb28abe50"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "5a675e58-b133-42a9-80b1-117ce54c3260"
+      },
+      "id": "55d1d698-d12b-415c-a4b6-4e056cee5d39"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ]
+      },
+      "id": "a6f6b6d8-a97e-4754-b5ac-aceab2cdbd87"
+    }
+  ],
+  "_index": 0
+}

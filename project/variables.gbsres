@@ -1,0 +1,35 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "XAxis",
+      "symbol": "var_xaxis"
+    },
+    {
+      "id": "d4b8f8eb-07bc-47ff-b556-0c030497aa37__L0",
+      "name": "MoveDir",
+      "symbol": "var_movedir"
+    },
+    {
+      "id": "10d0e1d7-7466-4023-8e60-79712e198526__L0",
+      "name": "MoveDir",
+      "symbol": "var_movedir_0"
+    },
+    {
+      "id": "1",
+      "name": "PlantGrown",
+      "symbol": "var_plantgrown"
+    },
+    {
+      "id": "2",
+      "name": "Planted",
+      "symbol": "var_planted"
+    },
+    {
+      "id": "3",
+      "name": "PlayerHP",
+      "symbol": "var_playerhp"
+    }
+  ]
+}
