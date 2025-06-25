@@ -217,6 +217,19 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "crash",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "34f2ca49-a76e-4514-986e-75808068f1b2"
+          },
+          {
             "command": "EVENT_CAMERA_SHAKE",
             "args": {
               "time": 0.2,
