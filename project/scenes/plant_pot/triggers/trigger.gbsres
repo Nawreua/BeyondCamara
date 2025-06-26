@@ -121,6 +121,36 @@
                           }
                         },
                         "id": "610a7cd6-ac73-4bc5-a6ae-5d3b9a20aab7"
+                      },
+                      {
+                        "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                        "args": {
+                          "input": [
+                            "a"
+                          ],
+                          "__collapse": false
+                        },
+                        "id": "fea2a5db-d9b2-4742-bb37-d91dbc5ad6d9"
+                      },
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "c0379c3d-2bab-4fdc-9929-7e396f7deabe",
+                          "x": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "xpos"
+                          },
+                          "y": {
+                            "type": "property",
+                            "target": "player",
+                            "property": "ypos"
+                          },
+                          "direction": "down",
+                          "fadeSpeed": 1,
+                          "__comment": false
+                        },
+                        "id": "fdd9a8d5-67fa-450e-9815-3c4915b14e7e"
                       }
                     ],
                     "false": []

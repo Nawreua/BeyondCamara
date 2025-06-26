@@ -192,7 +192,7 @@
           "type": "rnd",
           "value": {
             "type": "number",
-            "value": 100
+            "value": 50
           }
         }
       },
