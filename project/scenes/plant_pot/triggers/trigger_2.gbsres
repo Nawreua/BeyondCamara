@@ -32,8 +32,8 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "T0",
-              "trueText": "Go back",
-              "falseText": "Stay here"
+              "trueText": "o sin",
+              "falseText": "o awen"
             },
             "id": "d32f351b-7146-4cbf-bafd-1922cb0b9407"
           },

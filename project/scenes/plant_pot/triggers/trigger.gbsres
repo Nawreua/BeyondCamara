@@ -44,8 +44,8 @@
                   "command": "EVENT_CHOICE",
                   "args": {
                     "variable": "T0",
-                    "trueText": "Recolt herbs",
-                    "falseText": "Do nothing"
+                    "trueText": "o moku",
+                    "falseText": "o ala"
                   },
                   "id": "608df3b5-4d2d-4466-9434-112831795579"
                 },
@@ -70,7 +70,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Healed..."
+                            "lon, sina pona..."
                           ],
                           "__section": "text",
                           "avatarId": "",

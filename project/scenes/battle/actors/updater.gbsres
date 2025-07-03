@@ -246,7 +246,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ouch..."
+                "a..."
               ],
               "__section": "text",
               "avatarId": "",
