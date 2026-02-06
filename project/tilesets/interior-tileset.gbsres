@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "4d52a9ba-2989-4f0f-a262-919ac54401fb",
+  "name": "Interior-Tileset",
+  "symbol": "tileset_interior_tileset",
+  "width": 13,
+  "height": 30,
+  "imageWidth": 104,
+  "imageHeight": 240,
+  "filename": "Interior-Tileset.png"
+}
