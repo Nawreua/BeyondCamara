@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "c636636d-60c9-4a45-8760-8a6c0b1cae42",
+  "name": "bg-intro-tileset",
+  "symbol": "tileset_bg_intro_tileset",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "bg-intro-tileset.png"
+}
