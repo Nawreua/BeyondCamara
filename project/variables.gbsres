@@ -30,6 +30,11 @@
       "id": "10d0e1d7-7466-4023-8e60-79712e198526__L0",
       "name": "MoveDir",
       "symbol": "var_movedir_0"
+    },
+    {
+      "id": "8ce6f332-1341-4a54-8d79-8dc169abc88c__L0",
+      "name": "MoveDir",
+      "symbol": "var_movedir_1"
     }
   ]
 }
