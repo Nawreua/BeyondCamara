@@ -1,0 +1,86 @@
+{
+  "_resourceType": "scene",
+  "id": "3bb2de4f-809c-480a-ad01-a3308a3e4231",
+  "_index": 6,
+  "name": "Intro 2",
+  "backgroundId": "35806500-3f3d-4e28-b0c1-d2ec26e14f2c",
+  "tilesetId": "c636636d-60c9-4a45-8760-8a6c0b1cae42",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 952,
+  "y": 288,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "31ca4bbb-ecef-477e-ace2-2754770cbd76"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 10,
+        "frames": 30
+      },
+      "id": "967f6a90-16fd-4f21-9ce3-4a8bf96446f6"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "o lukin",
+          "suno a",
+          "o tomo mama\no tomo mama",
+          "mi mute li lukin\ne suno lon ma tomo",
+          "weka",
+          "o tomo mama\no tomo mama",
+          "mi mute li tawa e\nma tomo Kalama"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "54e3d1d5-522b-4f79-9c46-f4ccf1962a91"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "3485871b-0097-46a2-adff-55ac9f989be5",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 17
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "23e74275-cf5c-411f-8d26-4958d7a461b4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
