@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "3485871b-0097-46a2-adff-55ac9f989be5",
   "_index": 0,
-  "name": "Battle",
+  "name": "Battle Worms",
   "backgroundId": "d7b212a7-3322-4847-84d1-e6d72e7144fd",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 384,
-  "y": 184,
+  "x": 496,
+  "y": 96,
   "script": [
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
