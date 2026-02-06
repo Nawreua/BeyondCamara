@@ -70,7 +70,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "lon, sina pona..."
+                            "lon, sina pona"
                           ],
                           "__section": "text",
                           "avatarId": "",
