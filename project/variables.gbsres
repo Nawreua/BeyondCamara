@@ -36,5 +36,6 @@
       "name": "MoveDir",
       "symbol": "var_movedir_1"
     }
-  ]
+  ],
+  "constants": []
 }

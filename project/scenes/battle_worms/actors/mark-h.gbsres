@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "d9df5ac0-7c11-49da-8746-bf7b49921086",
+  "_index": 0,
+  "symbol": "actor_0",
+  "prefabId": "",
   "name": "Mark-H",
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 4,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "608aee00-fd3e-481e-af2a-411c5b6b73ac",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
   "script": [
     {
       "command": "EVENT_TEXT",
@@ -141,8 +146,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 18,
-  "y": 4,
-  "_index": 0
+  "hit3Script": []
 }

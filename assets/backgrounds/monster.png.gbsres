@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d7b212a7-3322-4847-84d1-e6d72e7144fd",
+  "name": "monster",
+  "symbol": "bg_monster",
+  "tileColors": "",
+  "filename": "monster.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7785b969-17c3-4416-9472-2ffa3352a127",
+  "name": "stone",
+  "symbol": "bg_stone",
+  "tileColors": "",
+  "filename": "stone.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

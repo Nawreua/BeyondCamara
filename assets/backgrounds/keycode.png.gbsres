@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "182650cb-24f9-4602-a0e8-1867612c1c43",
+  "name": "keycode",
+  "symbol": "bg_keycode",
+  "tileColors": "",
+  "filename": "keycode.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

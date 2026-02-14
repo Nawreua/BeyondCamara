@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b7096095-d493-4ddc-87c1-d67c0118334b",
+  "name": "mantis",
+  "symbol": "bg_mantis",
+  "tileColors": "",
+  "filename": "mantis.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

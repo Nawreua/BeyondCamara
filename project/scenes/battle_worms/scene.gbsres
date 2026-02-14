@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "3485871b-0097-46a2-adff-55ac9f989be5",
   "_index": 0,
-  "name": "Battle Worms",
-  "backgroundId": "d7b212a7-3322-4847-84d1-e6d72e7144fd",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "POINTNCLICK",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Battle Worms",
   "symbol": "scene_1",
   "x": 496,
   "y": 96,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "d7b212a7-3322-4847-84d1-e6d72e7144fd",
+  "tilesetId": "",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "a774373b-bba6-4901-8752-3f8e6dce14b7",
   "script": [
     {
       "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
@@ -128,6 +130,5 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "a774373b-bba6-4901-8752-3f8e6dce14b7",
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }

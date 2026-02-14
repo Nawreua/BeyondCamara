@@ -2,19 +2,19 @@
   "_resourceType": "scene",
   "id": "9cff53df-843b-457b-a872-d032cddc5010",
   "_index": 5,
-  "name": "Intro 1",
-  "backgroundId": "03cca911-2156-4122-beda-9921a9539ef9",
-  "tilesetId": "c636636d-60c9-4a45-8760-8a6c0b1cae42",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
-  "autoFadeSpeed": 1,
+  "name": "Intro 1",
   "symbol": "scene_6",
   "x": 960,
   "y": 64,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "03cca911-2156-4122-beda-9921a9539ef9",
+  "tilesetId": "c636636d-60c9-4a45-8760-8a6c0b1cae42",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -26,8 +26,14 @@
     {
       "command": "EVENT_WAIT",
       "args": {
-        "time": 5,
-        "frames": 30
+        "time": {
+          "type": "number",
+          "value": 5
+        },
+        "frames": {
+          "type": "number",
+          "value": 30
+        }
       },
       "id": "13e0a317-3316-4194-8c26-81c0470faccd"
     },
@@ -51,5 +57,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": ""
 }

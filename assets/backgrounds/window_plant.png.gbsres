@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "58e07afa-21bc-4ce1-a9ac-6fc3788797fb",
+  "name": "window_plant",
+  "symbol": "bg_window_plant",
+  "tileColors": "",
+  "filename": "window_plant.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}

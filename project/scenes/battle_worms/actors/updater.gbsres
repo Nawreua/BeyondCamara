@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "d4b8f8eb-07bc-47ff-b556-0c030497aa37",
+  "_index": 2,
+  "symbol": "actor_2",
+  "prefabId": "",
   "name": "Updater",
+  "coordinateType": "tiles",
+  "x": 18,
+  "y": 17,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "9deaee7f-8c52-4d9b-80f5-5b3beb9d9b2e",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 4,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_2",
   "script": [],
   "startScript": [
     {
@@ -353,7 +358,8 @@
               },
               "moveType": "horizontal",
               "useCollisions": false,
-              "__collapse": false
+              "__collapse": false,
+              "collideWith": []
             },
             "id": "3a1de281-7375-4e64-a8c9-7a1e304ae028"
           }
@@ -372,7 +378,8 @@
                 "value": "L0"
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "collideWith": []
             },
             "id": "c817cb8b-f89b-4386-a03c-53c1c9ea0f6d"
           }
@@ -383,8 +390,5 @@
   ],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 18,
-  "y": 17,
-  "_index": 2
+  "hit3Script": []
 }

@@ -1,20 +1,25 @@
 {
   "_resourceType": "actor",
   "id": "22bd3300-4d0b-4143-84fa-d0093ecb0103",
+  "_index": 1,
+  "symbol": "actor_1",
+  "prefabId": "",
   "name": "Mark-V",
+  "coordinateType": "tiles",
+  "x": 5,
+  "y": 17,
   "frame": 0,
   "animate": false,
   "spriteSheetId": "a3a8b72b-cf8e-43e5-a74e-7cd38b9ecd5e",
-  "prefabId": "",
+  "paletteId": "",
   "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
-  "paletteId": "",
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
+  "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_1",
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -124,8 +129,5 @@
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
-  "hit3Script": [],
-  "x": 5,
-  "y": 17,
-  "_index": 1
+  "hit3Script": []
 }

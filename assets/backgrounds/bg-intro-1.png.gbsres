@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "03cca911-2156-4122-beda-9921a9539ef9",
+  "name": "bg-intro-1",
+  "symbol": "bg_background_intro_1",
+  "tileColors": "",
+  "filename": "bg-intro-1.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "autoColor": false
+}
