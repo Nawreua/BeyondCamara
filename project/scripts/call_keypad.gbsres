@@ -1,0 +1,110 @@
+{
+  "_resourceType": "script",
+  "id": "9de9bdf0-e92c-4f93-a53a-db46f3b0aafc",
+  "name": "Call Keypad",
+  "description": "",
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "Keypad A",
+      "passByReference": false
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Keypad B",
+      "passByReference": false
+    },
+    "V2": {
+      "id": "V2",
+      "name": "Keypad C",
+      "passByReference": false
+    },
+    "V3": {
+      "id": "V3",
+      "name": "Keypad D",
+      "passByReference": false
+    }
+  },
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": true,
+        "__label": "Setup Keypad"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "variable",
+                "value": "V0"
+              }
+            },
+            "id": "148c1c9f-ebee-4b76-a06a-3b37980720a8"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "5",
+              "value": {
+                "type": "variable",
+                "value": "V1"
+              }
+            },
+            "id": "ca15b733-b17a-4aaf-9de8-116cd1250efd"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "6",
+              "value": {
+                "type": "variable",
+                "value": "V2"
+              }
+            },
+            "id": "aa8cfe89-c8d4-49ef-8c44-5d9ee6a70da4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "7",
+              "value": {
+                "type": "variable",
+                "value": "V3"
+              }
+            },
+            "id": "9a696d00-06a2-4d86-b21c-71e96e212f18"
+          }
+        ]
+      },
+      "id": "a546ce2b-1f10-46e2-bd48-1cddebcc7706"
+    },
+    {
+      "command": "EVENT_SCENE_PUSH_STATE",
+      "args": {},
+      "id": "9cec6d44-5f54-4580-8218-c32d6f2ea24a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "af06ef40-6e00-49a1-a00b-4d44531eecee",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 15
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "9892f304-0191-437d-960c-01e822e7cbb0"
+    }
+  ]
+}

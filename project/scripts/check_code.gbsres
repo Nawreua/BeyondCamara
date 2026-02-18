@@ -1,0 +1,185 @@
+{
+  "_resourceType": "script",
+  "id": "96580995-b468-41eb-aef6-2cf1e99e8e4d",
+  "name": "Check Code",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "12",
+        "value": {
+          "type": "false"
+        }
+      },
+      "id": "a5925ff6-f6af-4c31-9f65-9b1306218ae1"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "4"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "8"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "5"
+                },
+                "valueB": {
+                  "type": "variable",
+                  "value": "10"
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "6"
+                      },
+                      "valueB": {
+                        "type": "variable",
+                        "value": "9"
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "7"
+                            },
+                            "valueB": {
+                              "type": "variable",
+                              "value": "11"
+                            }
+                          },
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "12",
+                                "value": {
+                                  "type": "true"
+                                }
+                              },
+                              "id": "5b8c778f-c7e3-4965-8da2-7d67465921d7"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "1434e7aa-6628-47ea-8e40-0314e24d50c9"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "20480714-0590-40ae-8052-0e17aab95d01"
+                }
+              ],
+              "false": []
+            },
+            "id": "92e93dd9-3dd6-4009-b5ff-c240b66a43e3"
+          }
+        ],
+        "false": []
+      },
+      "id": "55bf7677-7bbe-454a-8279-853a937c4061"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "12"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 8,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "37a3c860-1a2f-4b93-99c4-caa45155473c"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 2,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0,
+              "__collapse": true
+            },
+            "id": "ac7daf87-d464-4ed1-aee3-afa2efa22e2d"
+          }
+        ]
+      },
+      "id": "3f75c894-7a39-41a8-a6a9-b2c6d757105e"
+    },
+    {
+      "command": "EVENT_REMOVE_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ]
+      },
+      "id": "52958afd-7479-4293-bd71-e4a3399da367"
+    },
+    {
+      "command": "EVENT_SCENE_POP_STATE",
+      "args": {
+        "fadeSpeed": "2"
+      },
+      "id": "e69d42c0-d3ea-48bd-a550-45b07dbd614d"
+    }
+  ]
+}

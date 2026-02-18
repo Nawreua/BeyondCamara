@@ -22,6 +22,51 @@
       "symbol": "var_playerhp"
     },
     {
+      "id": "4",
+      "name": "Keypad #1",
+      "symbol": "var_keypad_1"
+    },
+    {
+      "id": "5",
+      "name": "Keypad #2",
+      "symbol": "var_keypad_2"
+    },
+    {
+      "id": "6",
+      "name": "Keypad #3",
+      "symbol": "var_keypad_3"
+    },
+    {
+      "id": "7",
+      "name": "Keypad #4",
+      "symbol": "var_keypad_4"
+    },
+    {
+      "id": "8",
+      "name": "Puzzle Input #1",
+      "symbol": "var_puzzle_input_0"
+    },
+    {
+      "id": "9",
+      "name": "Puzzle Input #3",
+      "symbol": "var_puzzle_input_3"
+    },
+    {
+      "id": "10",
+      "name": "Puzzle Input #2",
+      "symbol": "var_puzzle_input_2"
+    },
+    {
+      "id": "11",
+      "name": "Puzzle Input #4",
+      "symbol": "var_puzzle_input_4"
+    },
+    {
+      "id": "12",
+      "name": "Puzzle Valid",
+      "symbol": "var_puzzle_valid"
+    },
+    {
       "id": "d4b8f8eb-07bc-47ff-b556-0c030497aa37__L0",
       "name": "MoveDir",
       "symbol": "var_movedir"
